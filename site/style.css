@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: var(--cor1);
+    background-image: url(imagens/background.jpg);
     text-align: justify;
     margin: 0px;
 }
