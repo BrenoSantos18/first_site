@@ -7,23 +7,7 @@
     <title>Site do Breno</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    <style>
-        .form {
-            padding: 10px;
-            max-width: 500px;
-            margin: auto;
-            margin-bottom: 40px;
-            background-color: #143966;
-            text-align: center;
-            color: white;
-            line-height: 30px;
-        }
-
-        .form input {
-            border-radius: 5px;
-        }
-    </style>
+    
 </head>
 <body>
     <header>
@@ -34,28 +18,31 @@
             <li><a href="index.html">Menu</a></li>
             <li class="aninhada"><a href="#">Livros</a>
                 <ul>
-                    <li><a href="#">Guerra da Coroa</a></li>
+                    <li><a href="livros.html">Bastardos de Darmus</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
 
     <main>
-        <form action="" method="post" autocomplete="off">
-            <div class="form">
-                <br>
-                <label style="margin-left: 3px;" for="nome">Nome: </label>
-                <input type="text" name="nome" id="nome">
-                <br>
-                <label for="email">E-mail: </label>
-                <input type="text" name="email" id="email">
-                <br>
-                <label style="margin-left: 3px;" for="senha">Senha: </label>
-                <input type="password" name="senha" id="senha">
-                <br>
-                <button type="submit">Enviar</button>
-            </div>
-        </form>
+        <article>
+            <form action="" method="post" autocomplete="off">
+                <div class="form">
+                    <br>
+                    <label style="margin-left:  3px;" for="nome">Nome </label>
+                    <input type="text" name="nome" id="nome">
+                    <br>
+                    <label for="email">E-mail </label>
+                    <input type="text" name="email" id="email">
+                    <br>
+                    <label style="margin-left: 3px;" for="senha">Senha </label>
+                    <input type="password" name="senha" id="senha">
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Apagar</button>
+                </div>
+            </form>
+        </article>
     </main>
 
     <footer>
